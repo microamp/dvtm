@@ -86,7 +86,6 @@ static KeyBinding bindings[] = {
 	{ { MOD, 'K',          }, { focusup,        { NULL }                    } },
 	{ { MOD, 'H',          }, { focusleft,      { NULL }                    } },
 	{ { MOD, 'L',          }, { focusright,     { NULL }                    } },
-	{ { MOD, 'k',          }, { focusprev,      { NULL }                    } },
 	{ { MOD, 'f',          }, { setlayout,      { "[]=" }                   } },
 	{ { MOD, 'g',          }, { setlayout,      { "+++" }                   } },
 	{ { MOD, 'b',          }, { setlayout,      { "TTT" }                   } },
