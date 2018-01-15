@@ -63,9 +63,9 @@ const char tags[][8] = { "1", "2", "3", "4", "5" };
 
 /* by default the first layout entry is used */
 static Layout layouts[] = {
+	{ "TTT", bstack },
 	{ "[]=", tile },
 	{ "+++", grid },
-	{ "TTT", bstack },
 	{ "[ ]", fullscreen },
 };
 
